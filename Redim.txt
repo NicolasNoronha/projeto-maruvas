@@ -1,0 +1,32 @@
+Palpite-box 
+npm init -y 
+npm install next react react-dom
+
+No arquivo packge.json
+  "scripts": {
+    "dev": "next", //subir um servidor para nos desenvolver
+    "start": "next start", // sobre para produção, rotas no servidor
+    "build": "next build" // complilar uma nova versão
+    
+    npm install tailwindcss
+
+    /*  content: [
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+  Essa versão do tailwind não suporta purge e content não pode estar vazio
+*/
+    npx tailwindcss init
+
+    npm install postcss-import
+
+    npm install autoprefixer
+
+    
+    npm install google-spreadsheet
+    
+    npm install swr
+    //Versão atual é bem ruim e da erro
+    SyntaxError: The requested module 'react' does not provide an export named 'useRef'
+
+    Foi instalado a versão anterior 1.1.2
+    npm i swr@1.1.2
