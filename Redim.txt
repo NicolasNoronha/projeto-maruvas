@@ -30,3 +30,4 @@ No arquivo packge.json
 
     Foi instalado a versão anterior 1.1.2
     npm i swr@1.1.2
+    teste
